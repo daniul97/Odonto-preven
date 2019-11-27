@@ -1,0 +1,376 @@
+h1 {
+    font-family: 'Patua One', cursive;
+    padding: 0px;
+    margin: 0px;
+}
+h2{
+    font-family:'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+ .nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+    font-family:'Oswald', sans-serif
+}
+  .nav li{
+    float: right;
+ }
+
+  .nav li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+
+ .nav  li a:hover {
+     color: black;
+    background-color: white;
+ }
+ a:link {text-decoration: none }
+ a:visited {color: rgb(255, 255, 255);  font-family: arial; text-decoration: none }
+	*{outline:none !important;}*:focus {outline: none !important;}textarea:focus, input:focus{outline: none !important;}	a{text-decoration: none !important;outline: none !important;}
+
+/* .active{
+    color: black;   
+    background-color:goldenrod;
+        
+     }
+ */
+ .principal{
+
+     width: 100%;
+     height:80%;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 0%;
+    margin: 0%;
+    color: aliceblue;
+}
+
+.principal h3{
+    font-size: 60%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+.imgRedonda {
+    width:15%;
+    height:15%;
+    border-radius:160px;
+    border:5px solid white;
+}
+
+#sub-punch{
+    margin-bottom:1.5%; 
+}
+header{
+  margin-left: 10%;
+  width:80%;
+ 
+}
+#about_me h2 {
+
+    margin: 0;
+    padding: 0;
+    margin-top: 3%;
+    text-align: center;
+}
+#about_me p {
+    padding: 25px;
+}
+
+#about_me img {
+   margin-left: 20px;
+   margin-right: 15px;
+    float: left;
+    width: 30%;
+}
+#ppal{
+ background-image: url(../img/main.jpg);
+}
+
+   h2#exp{
+    text-align: center;
+    margin-top:50px; 
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+  }
+  .secc_exp_educ{
+    background-image:url(../img/p2.png);
+    background-size: cover;
+    background-position: center top;
+
+  }
+  .jobs{
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+    }
+  .job{
+    padding: 5%;
+    padding-top: 20px;
+    width: 30%;
+    
+  }
+  .seccion{
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .job h3,h4 {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+  .escuelas{
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .escuela{
+    padding: 5%;
+    padding-top: 20px;
+    width: 30%;
+  }
+  .escuela h3,h4 {
+    padding: 0px;
+    margin: 0px;
+    text-align: center
+  }
+  .escuela .content{
+    padding: 5px;
+  }
+  .img_content{
+  text-align: center;
+}
+
+.hobbies_section{
+  display: flex;
+  margin-left: 10%;
+  width: 80%;
+}
+.hobbie{
+  padding: 5%;
+  padding-top: 20px;
+  width: 30%;
+}
+.hobbie h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 5px;
+  text-align: center
+}
+.hobbie .content{
+  padding: 5px;
+}
+
+.skills{
+  display: flex;
+  margin:0;
+  width: 100%;
+}
+.skill{
+  padding:0;
+  width: 25%;
+}
+
+.skill h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 5px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.skill li{
+text-align: center;
+text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+margin-bottom: 15px;
+}
+
+#software{
+ background-color: white;
+ color: black;
+ height: 100%;
+
+}
+#tech{
+  background-color: black;
+  color: aliceblue;
+ }
+#social{
+  background-color: #474A59;
+  color: white;
+  
+ }
+
+#idiomas{
+  background-color: #4BD1A0;
+  color: black;
+ }
+ .skill .img_content{
+   margin-top: 50px;
+   margin-bottom: 30px;
+ }
+ .skills_section{
+   background-image: url(../img/sk_section.png);
+   height: 700px;
+   color: beige;
+
+ }
+ .contact_section{
+   margin: 0;
+   padding: 0;
+
+ }
+ .contacts{
+  display: flex;
+  margin:0;
+  width: 100%;
+}
+.contact{
+  padding:0;
+  width: 50%;
+  
+}
+#datos{
+  background-color: #2E4975;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  height: 450px;
+  text-decoration: none;
+}
+#datos li {
+ padding: 10px;
+}
+#formulario{
+  background-color: #BBC8DD;
+  font-family: 'Montserrat', sans-serif;
+}
+.img_rs{
+  display: inline;
+  padding-top: 60px;
+ padding-left: 17%;
+  
+}
+
+.blog_section h1{
+  text-align: center;
+  padding-top: 5%;
+  font-size: 60px;
+  color: white;
+}
+.posts{
+  display: flex;
+  margin:0;
+  width: 100%;
+}
+.post{
+  margin: 3%;
+  background-color: white;
+  padding:5%;
+  width: 20%;
+  height: 20%;
+
+}
+.post h2{
+  text-align: center;
+  font-size: 20px;
+}
+.post img{
+width: 100%;
+height: 100%;
+}
+.main_button{
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  border:0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover{
+  background-color:rgb(22, 21, 21);
+}
+.article_section{
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/sed.png);
+  background-size: cover;
+}
+.article_post{
+  height: 60%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color:white;
+}
+.img_article{
+  float: left;
+  padding-left: 5%;
+}
+.article_post h3{
+  text-align: center;
+}
+.article_post h3,p{
+  padding-left:5%;
+  padding-right: 5%;
+}
+.img_peli{
+  text-align: center
+}
+.ppalbg{
+  background-image: url(../img/sk_section.png);
+background-size: cover;
+
+}
+
+.contact-form  {
+padding-left: 5%;
+border: none;
+font-size: 12px;
+
+}
+.contact-form textarea {
+  border: none;
+  font-size: 12px;
+  width: 580px;
+  height: 110px;
+  padding: 10px 25px;
+  border-left: 4px solid #1B5B99;
+  background: #eff2f4;
+}
+
+
+
+
+
+.contact-form ::placeholder {
+  font-style: italic;
+  color: #2d2d2d;
+}
+
+footer{
+  color:black;
+
+  margin: 0;
+  padding: 0;
+}
